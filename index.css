@@ -1,0 +1,16 @@
+.parent {
+    position: relative;
+}
+
+.above-fold{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-show {
+    opacity: 1 !important;
+    left: 0 !important;
+    transition: all 2s;
+}
